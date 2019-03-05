@@ -34,7 +34,16 @@ private Node next;
         this.size++;
     }
 public int pop(){
-
+int response=-1;
+if(this.top!=null){
+    response=this.top.getData();
+    this.top=this.top.getNext();
+    size--;
+}
+else{
+    System.out.println("Stack is Empty");
+}
+return response;
 }
 
 }
