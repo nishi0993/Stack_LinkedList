@@ -73,4 +73,7 @@ while(temp!=null){
 result.append("]");
 return result.toString();
     }
+    void search(){
+
+    }
 }
