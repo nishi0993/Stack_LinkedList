@@ -33,6 +33,8 @@ private Node next;
         this.top=newNode;
         this.size++;
     }
+public int pop(){
 
+}
 
 }
