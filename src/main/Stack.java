@@ -26,4 +26,7 @@ private Node next;
             this.next = next;
         }
     }
+    private Node top=null;
+    private  int size=0;
+
 }
