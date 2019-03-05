@@ -47,7 +47,13 @@ return response;
 }
 
     public static void main(String[] args) {
-
+Stack stack=new Stack();
+        System.out.println(stack);
+        for (int i = 0; i < 5; i++) {
+            stack.push(i+1);
+        }
+        stack.pop();
+        System.out.println(stack);
     }
 
 }
