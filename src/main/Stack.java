@@ -52,12 +52,24 @@ Stack stack=new Stack();
         for (int i = 0; i < 5; i++) {
             stack.push(i+1);
         }
+        System.out.println(stack);
         stack.pop();
         System.out.println(stack);
     }
 
     @Override
     public String toString() {
-
+StringBuilder result=new StringBuilder();
+result.append("[");
+Node temp=this.top;
+while(temp!=null){
+    result.append(temp.getData());
+    if(temp.getNext()!=null){
+        result.append(" -->");
+    }
+    temp=temp.getNext();
+}
+result.append("]");
+return result.toString();
     }
 }
