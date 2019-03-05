@@ -53,6 +53,7 @@ Stack stack=new Stack();
             stack.push(i+1);
         }
         System.out.println(stack);
+        System.out.println("After poping one node");
         stack.pop();
         System.out.println(stack);
     }
