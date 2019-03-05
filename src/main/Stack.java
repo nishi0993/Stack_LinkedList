@@ -56,4 +56,8 @@ Stack stack=new Stack();
         System.out.println(stack);
     }
 
+    @Override
+    public String toString() {
+
+    }
 }
