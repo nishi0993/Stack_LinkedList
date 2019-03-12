@@ -73,13 +73,13 @@ while(temp!=null){
 result.append("]");
 return result.toString();
     }
-    public boolean search(int data){
+  /*  public boolean search(int data){
 Node[] array=new Node[size];
-        if(top!=null{
+        if(top!=null){
 for (int i = 0; i < size; i++) {
             array[i]=top;
             top--;
         }
 
     }
-}}
+}*/}
